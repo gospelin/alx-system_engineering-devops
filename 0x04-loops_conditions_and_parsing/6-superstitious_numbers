@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+count=1
+
+while ((count <= 20))
+do
+	case $((count)) in
+		4)
+			echo "bad luck in China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$count"
+			;;
+	esac
+
+	count=$((count + 1))
+done
