@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# This Script displays 12hours 59 mins of the day
+
+hour=0
+
+while ((hour <= 12))
+do
+	mins=1
+	while ((mins <= 59))
+	do
+		if ((mins == 1));
+		then
+			echo "Hour: $hour"
+			echo "$mins"
+		else
+			echo "$mins"
+		fi
+
+		mins=$((mins + 1))
+	done
+	hour=$((hour + 1))
+done
