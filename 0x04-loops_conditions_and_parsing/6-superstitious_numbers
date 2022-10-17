@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script prints out results of superstitious numbers.
 
 count=1
 
