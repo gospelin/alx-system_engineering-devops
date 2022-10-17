@@ -7,12 +7,15 @@ while ((count <= 20))
 do
 	case $((count)) in
 		4)
+		    echo "$count"
 			echo "bad luck in China"
 			;;
 		9)
+		    echo "$count"
 			echo "bad luck from Japan"
 			;;
 		17)
+		    echo "$count"
 			echo "bad luck from Italy"
 			;;
 		*)
