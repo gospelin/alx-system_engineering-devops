@@ -8,7 +8,7 @@ do
     case $((count)) in
         4)
             echo "$count"
-            echo "bad luck in China"
+            echo "bad luck from China"
             ;;
         9)
             echo "$count"
