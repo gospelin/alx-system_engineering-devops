@@ -14,5 +14,5 @@ do
 
 	echo "Best School"
 
-	count=$((count + 1))
+	((count++))
 done
