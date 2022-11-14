@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Command to ping any network
 
-if [ $# == 1 ] && [ $1 != '' ]
+if [ $# == 1 ] && [ "$1" != '' ]
 then
-	ping -c 5 $1
+	ping -c 5 "$1"
 else
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 fi
